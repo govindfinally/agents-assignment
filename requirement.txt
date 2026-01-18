@@ -7,3 +7,5 @@ livekit-plugins-deepgram>=0.10.0
 
 # Environment variable handling
 python-dotenv>=1.0.0
+# tts
+pyttsx3

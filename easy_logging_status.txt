@@ -1,179 +1,198 @@
-2026-01-17 18:31:29,627 | INFO | livekit.agents | starting worker
-2026-01-17 18:31:29,628 | INFO | livekit.agents | HTTP server listening on :8081
-2026-01-17 18:31:29,631 | INFO | livekit.agents | initializing job runner
-2026-01-17 18:31:29,631 | INFO | livekit.agents | initializing job runner
-2026-01-17 18:31:29,631 | INFO | livekit.agents | initializing job runner
-2026-01-17 18:31:29,631 | INFO | livekit.agents | initializing job runner
-2026-01-17 18:31:29,633 | INFO | livekit.agents | job runner initialized
-2026-01-17 18:31:29,633 | INFO | livekit.agents | job runner initialized
-2026-01-17 18:31:29,634 | INFO | livekit.agents | job runner initialized
-2026-01-17 18:31:29,634 | INFO | livekit.agents | job runner initialized
-2026-01-17 18:31:41,137 | INFO | livekit.agents | registered worker
-2026-01-17 18:31:41,243 | INFO | livekit.agents | received job request
-2026-01-17 18:31:41,451 | INFO | livekit.agents | initializing job runner
-2026-01-17 18:31:41,452 | INFO | livekit.agents | job runner initialized
-2026-01-17 18:31:51,360 | WARNING | livekit.agents | The room connection was not established within 10 seconds after calling job_entry. This might mean that job_ctx.connect() was never invoked, or that no AgentSession with an active RoomIO has been started.
-2026-01-17 18:32:25,472 | INFO | interrupt-agent | Connected to room: playground-59tW-Okf2
-2026-01-17 18:32:25,472 | INFO | interrupt-agent | Participant joined: identity-41QF
-2026-01-17 18:32:25,674 | INFO | interrupt-agent | Listening for speech events
-2026-01-17 18:32:30,319 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
-2026-01-17 18:32:31,113 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
-2026-01-17 18:32:32,759 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Give me'
-2026-01-17 18:32:32,760 | INFO | interrupt-agent | Normal turn (agent silent)
-2026-01-17 18:32:32,760 | INFO | interrupt-agent | Agent speaking: 'You said Give me'
-2026-01-17 18:32:33,222 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:35,055 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:35,376 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'I know.'
-2026-01-17 18:32:35,376 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:32:39,542 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:40,901 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:44,091 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:46,927 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:49,478 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Stop.'
-2026-01-17 18:32:49,479 | INFO | interrupt-agent | 🛑 INTERRUPT detected — stopping agent
-2026-01-17 18:32:49,479 | INFO | interrupt-agent | Agent speaking: 'Okay, stopping.'
-2026-01-17 18:32:51,388 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:51,885 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:52,400 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:32:57,032 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Stop. Okay. Okay. Okay. Okay. Okay. Okay.'
-2026-01-17 18:32:57,033 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:33:00,906 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:01,204 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:02,853 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:03,931 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:07,838 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:09,881 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:14,569 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:15,613 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:21,072 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:26,807 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:32,354 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:36,098 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:37,856 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:42,074 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:43,977 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:50,107 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:51,741 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Hard.'
-2026-01-17 18:33:51,741 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:33:52,484 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:54,759 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:55,119 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:57,607 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:33:59,998 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:00,817 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:01,480 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:05,001 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:08,075 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:14,407 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:17,730 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:18,030 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:18,850 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Hide.'
-2026-01-17 18:34:18,850 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:34:19,366 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:22,778 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Halt? Uh-huh. Come on. Come on, Jara.'
-2026-01-17 18:34:22,778 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:34:24,660 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:27,799 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Halt. Halt.'
-2026-01-17 18:34:27,799 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:34:28,062 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:30,317 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Uh-huh.'
-2026-01-17 18:34:30,317 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:34:34,579 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:35,857 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:37,220 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:38,807 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:39,657 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:42,120 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:44,355 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:44,735 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:48,975 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:49,732 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:52,673 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:54,662 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:56,699 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:34:59,714 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:01,969 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:04,269 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:05,834 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:10,595 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:10,595 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:15,962 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:16,690 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:17,265 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:21,648 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:24,101 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:25,025 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Chicken.'
-2026-01-17 18:35:25,025 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:35:28,972 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:30,439 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:36,369 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:37,450 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:38,960 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:40,682 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:41,881 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Stop.'
-2026-01-17 18:35:41,882 | INFO | interrupt-agent | 🛑 INTERRUPT detected — stopping agent
-2026-01-17 18:35:41,882 | INFO | interrupt-agent | Agent speaking: 'Okay, stopping.'
-2026-01-17 18:35:44,751 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:46,387 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:49,125 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:52,365 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:55,726 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Rumjab, hi.'
-2026-01-17 18:35:55,726 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:35:56,622 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:35:58,130 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Stop.'
-2026-01-17 18:35:58,130 | INFO | interrupt-agent | 🛑 INTERRUPT detected — stopping agent
-2026-01-17 18:35:58,131 | INFO | interrupt-agent | Agent speaking: 'Okay, stopping.'
-2026-01-17 18:36:02,582 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:03,212 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:07,090 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Hold on.'
-2026-01-17 18:36:07,090 | INFO | interrupt-agent | 🛑 INTERRUPT detected — stopping agent
-2026-01-17 18:36:07,091 | INFO | interrupt-agent | Agent speaking: 'Okay, stopping.'
-2026-01-17 18:36:07,154 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:08,515 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:10,493 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:11,066 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:11,455 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:14,050 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:14,050 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:16,163 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:18,429 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:19,385 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Hi.'
-2026-01-17 18:36:19,385 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:36:19,694 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:22,621 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:24,820 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:26,984 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:27,972 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Hide.'
-2026-01-17 18:36:27,972 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:36:32,591 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:33,895 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Hide.'
-2026-01-17 18:36:33,896 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:36:34,146 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:36,904 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:38,665 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Stop it.'
-2026-01-17 18:36:38,665 | INFO | interrupt-agent | 🛑 INTERRUPT detected — stopping agent
-2026-01-17 18:36:38,666 | INFO | interrupt-agent | Agent speaking: 'Okay, stopping.'
-2026-01-17 18:36:38,986 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:41,656 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:44,102 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:49,675 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:49,765 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Yeah.'
-2026-01-17 18:36:49,765 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:36:52,267 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:53,540 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:55,292 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Great work.'
-2026-01-17 18:36:55,292 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:36:57,697 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:36:59,937 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:00,464 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:02,602 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Good then.'
-2026-01-17 18:37:02,602 | INFO | interrupt-agent | Backchannel ignored (agent continues)
-2026-01-17 18:37:03,139 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:04,896 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:06,899 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:09,756 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:11,789 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:13,796 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:14,740 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
-2026-01-17 18:37:15,511 | INFO | livekit.agents | draining worker
-2026-01-17 18:37:16,122 | WARNING | livekit.agents | exiting forcefully
+2026-01-18 21:07:54,036 | INFO | livekit.agents | starting worker
+2026-01-18 21:07:54,039 | INFO | livekit.agents | HTTP server listening on :8081
+2026-01-18 21:07:54,041 | INFO | livekit.agents | initializing job runner
+2026-01-18 21:07:54,042 | INFO | livekit.agents | initializing job runner
+2026-01-18 21:07:54,042 | INFO | livekit.agents | initializing job runner
+2026-01-18 21:07:54,042 | INFO | livekit.agents | initializing job runner
+2026-01-18 21:07:54,044 | INFO | livekit.agents | job runner initialized
+2026-01-18 21:07:54,045 | INFO | livekit.agents | job runner initialized
+2026-01-18 21:07:54,045 | INFO | livekit.agents | job runner initialized
+2026-01-18 21:07:54,045 | INFO | livekit.agents | job runner initialized
+2026-01-18 21:07:55,083 | INFO | livekit.agents | registered worker
+2026-01-18 21:07:55,187 | INFO | livekit.agents | received job request
+2026-01-18 21:07:55,399 | INFO | livekit.agents | initializing job runner
+2026-01-18 21:07:55,400 | INFO | livekit.agents | job runner initialized
+2026-01-18 21:07:59,340 | INFO | interrupt-agent | Connected to room: playground-POcP-FUNj
+2026-01-18 21:07:59,341 | INFO | interrupt-agent | Participant joined: identity-LOnl
+2026-01-18 21:07:59,544 | INFO | interrupt-agent | Listening for speech events
+2026-01-18 21:08:02,166 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
+2026-01-18 21:08:02,166 | INFO | interrupt-agent | 🎤 User started speaking while agent is silent
+2026-01-18 21:08:04,239 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
+2026-01-18 21:08:04,239 | INFO | interrupt-agent | 🎤 User started speaking while agent is silent
+2026-01-18 21:08:04,240 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
+2026-01-18 21:08:04,240 | INFO | interrupt-agent | 🎤 User started speaking while agent is silent
+2026-01-18 21:08:05,408 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
+2026-01-18 21:08:05,408 | INFO | interrupt-agent | 🎤 User started speaking while agent is silent
+2026-01-18 21:08:06,882 | INFO | interrupt-agent | START_OF_SPEECH (agent silent)
+2026-01-18 21:08:06,882 | INFO | interrupt-agent | 🎤 User started speaking while agent is silent
+2026-01-18 21:08:08,280 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'May I know your name?'
+2026-01-18 21:08:08,280 | INFO | interrupt-agent | Normal turn (agent silent)
+2026-01-18 21:08:08,280 | INFO | interrupt-agent | Agent speaking: 'You said May I know your name?'
+2026-01-18 21:08:20,886 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:08:20,886 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:08:53,524 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:08:53,524 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:49,161 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:49,161 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:49,613 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:49,613 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:50,826 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:50,826 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:52,642 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:52,642 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:56,208 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:56,209 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:57,695 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:57,695 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:09:58,252 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:09:58,252 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:03,219 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:03,220 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:14,502 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:14,502 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:14,698 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:14,699 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:17,129 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:17,129 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:18,286 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:18,287 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:19,312 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:19,312 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:24,588 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:24,588 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:27,996 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:27,996 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:32,519 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:32,519 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:45,793 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:45,794 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:47,388 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:47,388 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:50,628 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:50,628 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:10:54,790 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:10:54,790 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:00,421 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:00,422 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:03,189 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:03,189 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:07,308 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:07,309 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:14,811 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:14,811 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:17,029 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:17,029 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:18,320 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:18,320 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:19,288 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:19,288 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:26,202 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:26,202 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:34,816 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:34,817 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:40,100 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:40,100 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:43,628 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:43,628 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:50,304 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:50,304 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:52,426 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:52,427 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:11:59,564 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:11:59,564 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:00,588 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:00,588 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:06,108 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:06,108 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:08,468 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:08,468 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:09,971 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:09,971 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:10,271 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:10,271 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:10,673 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:10,673 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:11,384 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:11,384 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:13,985 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:13,986 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:14,469 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:14,470 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:19,101 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:19,101 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:22,467 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:22,467 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:23,483 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:23,484 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:23,484 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:23,484 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:26,778 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:26,779 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:31,392 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:31,392 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:33,394 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:33,394 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:36,713 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:36,713 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:39,738 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:39,738 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:41,695 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:41,696 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:43,194 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:43,194 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:43,788 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:43,788 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:43,803 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:43,803 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:45,151 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:45,151 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:49,755 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:49,755 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:50,067 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:50,067 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:50,544 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:50,544 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:52,763 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:52,763 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:53,629 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:53,629 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:55,134 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:55,134 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:57,988 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:57,989 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:12:58,658 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:12:58,658 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:13:04,614 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:13:04,614 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:13:04,615 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:13:04,615 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:37,646 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:37,646 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:42,041 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:42,041 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:45,407 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:45,407 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:47,821 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:47,821 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:48,955 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:48,956 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:49,429 | INFO | interrupt-agent | FINAL_TRANSCRIPT: 'Come on.'
+2026-01-18 21:14:49,429 | INFO | interrupt-agent | Backchannel ignored (agent continues)
+2026-01-18 21:14:51,043 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:51,043 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:54,858 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:54,858 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:56,946 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:56,946 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:14:59,070 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:14:59,070 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:15:01,037 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:15:01,037 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:15:04,636 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:15:04,636 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:15:06,613 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:15:06,613 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:15:06,672 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:15:06,672 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
+2026-01-18 21:15:08,481 | INFO | interrupt-agent | START_OF_SPEECH ignored (agent speaking)
+2026-01-18 21:15:08,481 | INFO | interrupt-agent | 🔊 Agent is speaking; ignoring user speech
