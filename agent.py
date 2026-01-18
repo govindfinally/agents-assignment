@@ -61,7 +61,7 @@ async def entrypoint(ctx: JobContext):
     await ctx.connect()
     logger.info(f"Connected to room: {ctx.room.name}")
 
-    stt = deepgram.STT()
+    stt = deepgram.STT(model="nova-2-general")
 
     participant = await ctx.wait_for_participant()
     logger.info(f"Participant joined: {participant.identity}")
