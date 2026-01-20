@@ -11,7 +11,7 @@ from livekit.plugins import deepgram
 
 from interruption_logic import InterruptionLogic
 
-load_dotenv(Path(__file__).parent / ".env")
+load_dotenv(Path(__file__).parent / ".env")init
 
 # Basic logging setup
 LOG_FILE = Path(__file__).parent / "easy_logging_status.txt"
